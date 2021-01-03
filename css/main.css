@@ -1,11 +1,12 @@
 body {
     margin: 60px auto;
+    padding-top: 70px;
+    padding-bottom: 120px;
 }
 
 nav ul,
 footer ul {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
     font-weight: bold;
     text-align: center;
@@ -210,6 +211,10 @@ ul.posts li {
 
 .social-icons a.linkedin:hover {
     background-color: #007bb6
+}
+
+.social-icons a.website:hover {
+    background-color: #025510
 }
 
 .social-icons a.email:hover {
