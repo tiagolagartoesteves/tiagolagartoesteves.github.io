@@ -1,33 +1,139 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Tiago Lagarto Esteves</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">	
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-			 
-		</nav>
-			
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Tiago!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:tiago.lagarto.esteves@gmail.com">email</a></li>
-        		<li><a href="https://github.com/tiagolagartoesteves">github.com/tiagolagartoesteves</a></li>
-			</ul>
-		</footer>
-		<script src="javascript/dark-mode-switch.min.js"></script>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/dark-mode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark static-top" style="background-color: #26272b; position:fixed; width:100%; top: 0px;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tiago Lagarto Esteves</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                </ul>
+                <!-- Dark Mode Option -->
+                <div class="custom-control custom-switch" style="float:right;padding-top:5px">
+                    <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                    <label class="custom-control-label" for="darkSwitch"></label>
+                    <i class="fa fa-moon-o" aria-hidden="true" style="color:white"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-lg-12 text-center">
+                <h1>Hi there, I'm Tiago!</h1>
+                </br>
+                <p>I’m a software architect. Currently, I'm working as a software architect at PrepayPower. I’ve studied computer network engineering and am interested in software architecture, especially cloud architecture. On my free time, I enjoy spending
+                    time with my family, travelling and play tennis.
+                </p>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <h5>My Daily Routine</h5>
+                <ul class="list-display">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <h7>Weekdays:</h7>
+                    <ul class="list-checkmarks">
+                        <li>Wake up around 6am</li>
+                        <li>30 minutes of sport</li>
+                        <li>10 minutes of meditation</li>
+                        <li>30 minutes reading news</li>
+                        <li>25 minutes of Duolingo</li>
+                        <li><b><u>Day job from 9am till 6pm</u></b></li>
+                        <li>30 minutes of reading / taking notes</li>
+                        <li>Time to spend time with my family</li>
+                        <li>Like to sleep around 10pm</li>
+                    </ul>
+                </ul>
+                <ul class="list-display">
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <h7>Weekend:</h7>
+                    <ul class="list-checkmarks">
+                        <li>Wake up at 7am</li>
+                        <li>30 minutes of sport</li>
+                        <li>10 minutes of meditation</li>
+                        <li>Try to learn new stuff</li>
+                    </ul>
+                </ul>
+                <p>In my bed at 10pm… I don’t like to go out very late anymore. I try to keep some flexibility of course. Sometimes I don’t do everything, or just a bit of everything. It’s perfectly fine. </br><b>DISCLAIMER:</b> even if I follow this routine
+                    for years, I wasn’t able to build the necessary discipline from one day to another. I experimented, failed, tried again, failed again. At the end, everything fall into place, more or less. In short, <b>it took me time, dedication and
+                    work.</b> And it’s not over. I believe in our capacities as humans, thus I try to help as much as I can to leverage them. If I can contribute to make the world a better place, I would consider my life a success.</p>
+                <ul class="list-display">
+                    <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                    <h7>Other Interests:</h7>
+                    <h6>I like many, many things. Here’s a short preview:</h6>
+                    <ul class="list-checkmarks">
+                        <li>Photography</li>
+                        <li>Eating good food</li>
+                        <li>Sports</li>
+                        <li>Philosophy</li>
+                        <li>Psychology</li>
+                        <li>Travelling</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Site footer -->
+    <footer class="site-footer" style="background-color: #26272b; position:fixed; width:100%; bottom: 0px;">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by Tiago Lagarto Esteves.
+                        </p>
+                    </div>
+
+                    <div class="col-md-5 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="website" href="http://howtofinance.azurewebsites.net/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+                            <li><a class="email" href="mailto:tiago.lagarto.esteves@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/LagartoEsteves" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="github" href="https://github.com/tiagolagartoesteves" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/in/tiago-esteves-aa76b83b/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="javascript/dark-mode-switch.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
 </html>
